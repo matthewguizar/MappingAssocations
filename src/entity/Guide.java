@@ -35,6 +35,14 @@ public class Guide {
         this.salary = salary;
     }
 
+    public void setSalary(int amount){
+        this.salary = amount;
+    }
+
     public Set<Student> getStudents(){return students;}
     
+    public void addStudents(Student student) {
+        students.add(student);
+        student.setGuide(this);
+    }
 }
