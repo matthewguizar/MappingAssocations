@@ -27,4 +27,11 @@ public class Student {
         this.guide = guide;
     }
 
+    public Guide getGuide() {
+        return guide;
+    }
+    public void setGuide(Guide guide){
+        this.guide = guide;
+    }
+
 }
